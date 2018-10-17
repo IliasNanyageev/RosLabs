@@ -1,0 +1,6 @@
+<launch>
+<node name="nanyageev_ir_13345_2_2_service_node" pkg="nanyageev_ir_13345_2_2" type="nanyageev_ir_13345_2_2_service_node"
+  respawn="false" output="screen" />
+<node name="nanyageev_ir_13345_2_2_client_node" pkg="nanyageev_ir_13345_2_2" type="nanyageev_ir_13345_2_2_client_node"
+    respawn="false" output="screen" />
+</launch>
